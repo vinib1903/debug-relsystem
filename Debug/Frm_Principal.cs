@@ -40,7 +40,9 @@ namespace Debug
             {
                 string url = $"http://{ipCatraca}/liberacaoGiro?libera=2";
 
-                HttpResponseMessage response = await _httpClient.GetAsync(url);
+                //HttpResponseMessage response = await _httpClient.GetAsync(url);
+                var content = new StringContent("{\"libera\":2}", Encoding.UTF8, "application/json");
+                HttpResponseMessage response = await _httpClient.PostAsync(url, content);
                 if (response.IsSuccessStatusCode)
                 {
                     MessageBox.Show("Liberação realizada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -60,7 +62,10 @@ namespace Debug
         {
             string url = $"http://{ipCatraca}/liberacaoGiro?libera=3";
 
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            //HttpResponseMessage response = await _httpClient.GetAsync(url);
+            var content = new StringContent("{\"libera\":3}", Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Liberação realizada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -75,7 +80,10 @@ namespace Debug
         {
             string url = $"http://{ipCatraca}/liberacaoGiro?libera=1";
 
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            //HttpResponseMessage response = await _httpClient.GetAsync(url);
+            var content = new StringContent("{\"libera\":1}", Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Liberação realizada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -89,6 +97,7 @@ namespace Debug
         private void btn_Conectar_Click(object sender, EventArgs e)
         {
             ipCatraca = txt_IpCatraca.Text;
+            MessageBox.Show($"IP SETADO = {ipCatraca}!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
     }

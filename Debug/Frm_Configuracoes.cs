@@ -40,7 +40,10 @@ namespace Debug
 
             string url = $"http://{ipCatracaFormPrincipal}/setIP?ip={ip}&mascara={mascara}&gateway={gateway}&porta={porta}";
 
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            //HttpResponseMessage response = await _httpClient.GetAsync(url);
+            var content = new StringContent($"{{\"ip\":\"{ip}\",\"mascara\":\"{mascara}\",\"gateway\":\"{gateway}\",\"porta\":\"{porta}\"}}", Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Configuração de IP realizada com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -57,7 +60,10 @@ namespace Debug
 
             string url = $"http://{ipCatracaFormPrincipal}/setAcionamento?tempoAcionamento={tempoAcionamento}";
 
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            //HttpResponseMessage response = await _httpClient.GetAsync(url);
+            var content = new StringContent($"{{\"tempoAcionamento\":{tempoAcionamento}}}", Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Tempo de acionamento configurado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -75,7 +81,10 @@ namespace Debug
 
             string url = $"http://{ipCatracaFormPrincipal}/setLogin?usuario={usuario}&senha={senha}";
 
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            //HttpResponseMessage response = await _httpClient.GetAsync(url);
+            var content = new StringContent($"{{\"usuario\":\"{usuario}\",\"senha\":\"{senha}\"}}", Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
             if (response.IsSuccessStatusCode)
             {
                 MessageBox.Show("Credenciais alteradas com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -93,7 +102,10 @@ namespace Debug
 
             string url = $"http://{ipCatracaFormPrincipal}/setConfigGiro?sentidoGiroID={sentidoGiroID}&inverteGiro={inverteGiro}";
 
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            //HttpResponseMessage response = await _httpClient.GetAsync(url);
+            var content = new StringContent($"{{\"sentidoGiroID\":\"{sentidoGiroID}\",\"inverteGiro\":\"{inverteGiro}\"}}", Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
 
             if (response.IsSuccessStatusCode)
             {
@@ -111,7 +123,10 @@ namespace Debug
 
             string url = $"http://{ipCatracaFormPrincipal}/setTipoGiro?tipoGiro={tipoGiro}";
 
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            //HttpResponseMessage response = await _httpClient.GetAsync(url);
+            var content = new StringContent($"{{\"tipoGiro\":{tipoGiro}}}", Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, content);
 
             if (response.IsSuccessStatusCode)
             {

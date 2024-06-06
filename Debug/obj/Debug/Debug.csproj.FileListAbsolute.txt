@@ -9,3 +9,14 @@ C:\Users\vinic\Desktop\Projects\DIO\CSharp\Debug\Debug\obj\Debug\Debug.csproj.Ge
 C:\Users\vinic\Desktop\Projects\DIO\CSharp\Debug\Debug\obj\Debug\Debug.csproj.CoreCompileInputs.cache
 C:\Users\vinic\Desktop\Projects\DIO\CSharp\Debug\Debug\obj\Debug\Debug.exe
 C:\Users\vinic\Desktop\Projects\DIO\CSharp\Debug\Debug\obj\Debug\Debug.pdb
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\bin\Debug\Debug.exe.config
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\bin\Debug\Debug.exe
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\bin\Debug\Debug.pdb
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.Frm_Configuracoes.resources
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.Frm_Principal.resources
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.Properties.Resources.resources
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.csproj.GenerateResource.cache
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.exe
+C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.pdb
