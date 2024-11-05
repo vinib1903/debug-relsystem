@@ -20,3 +20,38 @@ C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug
 C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.csproj.CoreCompileInputs.cache
 C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.exe
 C:\Users\vinic\Desktop\Projects\Nova pasta\debug-relsystem\Debug\obj\Debug\Debug.pdb
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\Debug.exe.config
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\Debug.exe
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\Debug.pdb
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\EntityFramework.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Buffers.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Data.SQLite.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Memory.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\EntityFramework.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Buffers.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Data.SQLite.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Memory.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.csproj.AssemblyReference.cache
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.Frm_Configuracoes.resources
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.Frm_Principal.resources
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.Properties.Resources.resources
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.csproj.GenerateResource.cache
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.csproj.CoreCompileInputs.cache
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.csproj.Up2Date
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.exe
+C:\Users\vinic\RiderProjects\debug-relsystem\Debug\obj\Debug\Debug.pdb
